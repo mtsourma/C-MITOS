@@ -1,0 +1,50 @@
+version: "3.1"
+stories:
+- story: path intent_437870 (.\tests\test_stories.yml)
+  steps:
+  - intent: intent_437870
+  - action: utter_intent_437870  # predicted: action_listen
+- story: path intent_439605 (.\tests\test_stories.yml)
+  steps:
+  - intent: intent_439605
+  - action: utter_intent_439605  # predicted: action_listen after action_unlikely_intent
+- story: path intent_445356 (.\tests\test_stories.yml)
+  steps:
+  - intent: intent_445356
+  - action: utter_intent_445356  # predicted: action_listen
+- story: path intent_468536 (.\tests\test_stories.yml)
+  steps:
+  - intent: intent_468536  # predicted: nlu_fallback: πως μπορώ να μεταφέρω ζωικά υποπροιόντα;
+  - action: utter_intent_468536  # predicted: action_listen
+- story: path intent_478433 (.\tests\test_stories.yml)
+  steps:
+  - intent: intent_478433  # predicted: nlu_fallback: που μπορώ να βρω τα δελτία θέματος;
+  - action: utter_intent_478433  # predicted: action_listen
+- story: path intent_486144 (.\tests\test_stories.yml)
+  steps:
+  - intent: intent_486144
+  - action: utter_intent_486144  # predicted: action_listen after action_unlikely_intent
+- story: path intent_519456 (.\tests\test_stories.yml)
+  steps:
+  - intent: intent_519456
+  - action: utter_intent_519456  # predicted: action_listen
+- story: path intent_621184 (.\tests\test_stories.yml)
+  steps:
+  - intent: intent_621184
+  - action: utter_intent_621184  # predicted: action_listen after action_unlikely_intent
+- story: path intent_225434 (.\tests\test_stories.yml)
+  steps:
+  - intent: intent_225434  # predicted: intent_742507: πως κάνω Ανανέωση ειδικής άδειας οδήγησης Επιβατηγού Δημόσιας Χρήσης (ΕΔΧ) αυτοκινήτου;
+  - action: utter_intent_225434  # predicted: action_default_fallback
+- story: path intent_282628 (.\tests\test_stories.yml)
+  steps:
+  - intent: intent_282628
+  - action: utter_intent_282628  # predicted: utter_intent_233198
+- story: path intent_290952 (.\tests\test_stories.yml)
+  steps:
+  - intent: intent_290952  # predicted: intent_289214: ωραία, τι στοιχεία χρειάζομαι για την απόκτηση Ψηφιακές Υπηρεσίες για Μελισσοκόμους;
+  - action: utter_intent_290952
+- story: path intent_314585 (.\tests\test_stories.yml)
+  steps:
+  - intent: intent_314585  # predicted: nlu_fallback: - Τι είναι το ΕΝΦΙΑ;
+  - action: utter_intent_314585

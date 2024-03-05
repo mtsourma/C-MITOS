@@ -1,0 +1,169 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: happy path 1
+  steps:
+  - user: |
+      hello there!
+    intent: greet
+  - action: utter_greet
+  - user: |
+      amazing
+    intent: mood_great
+  - action: utter_happy
+
+- story: path intent_225434
+  steps:
+  - user: |
+      πως κάνω Ανανέωση ειδικής άδειας οδήγησης Επιβατηγού Δημόσιας Χρήσης (ΕΔΧ) αυτοκινήτου;
+    intent: intent_225434
+  - action: utter_intent_225434
+
+- story: path intent_374832
+  steps:  
+  - user: |
+      ωραία, Τι είναι η Αντίγραφο ειδικής άδειας οδήγησης Επιβατηγού Δημόσιας Χρήσης (ΕΔΧ) αυτοκινήτου;
+    intent: intent_374832
+  - action: utter_intent_374832
+
+- story: path intent_282628
+  steps:
+  - user: |
+      Τι είναι η Αίτηση Εγγραφής Εκλογέα στους Καταλόγους Ετεροδημοτών;
+    intent: intent_282628
+  - action: utter_intent_282628
+
+- story: path intent_290952
+  steps:
+  - user: |
+      ωραία, τι στοιχεία χρειάζομαι για την απόκτηση Ψηφιακές Υπηρεσίες για Μελισσοκόμους;
+    intent: intent_290952
+  - action: utter_intent_290952
+
+- story: path intent_289214
+  steps:
+  - user: |
+      που μπορώ να βρω την Ψηφιακές Υπηρεσίες για Μελισσοκόμους;
+    intent: intent_289214
+  - action: utter_intent_289214  
+
+- story: path intent_334740
+  steps:
+  - user: |
+      τι μπορείτε να μου πείτε για τις Εγγραφές πρωτοετών φοιτητών;
+    intent: intent_334740
+  - action: utter_intent_334740    
+
+- story: path intent_314585
+  steps:
+  - user: |
+      - Τι είναι το ΕΝΦΙΑ;
+    intent: intent_314585
+  - action: utter_intent_314585  
+
+
+- story: path intent_334740
+  steps:
+  - user: |
+      τι μπορείτε να μου πείτε για τις Εγγραφές πρωτοετών φοιτητών;
+    intent: intent_334740
+  - action: utter_intent_334740  
+
+
+- story: path intent_344883
+  steps:
+  - user: |
+      απόκτηση Έκδοση οικοδομικής άδειας με προέγκριση;
+    intent: intent_344883
+  - action: utter_intent_344883  
+
+- story: path intent_374859
+  steps:
+  - user: |
+      ποιος δικαιούται Βεβαίωση ανεργίας για παροχή ιατροφαρμακευτικής περίθαλψης;
+    intent: intent_374859
+  - action: utter_intent_374859  
+
+- story: path intent_379789
+  steps:
+  - user: |
+      Τι είναι η 1. Αναβολή κατάταξης σε υποψηφίους σπουδαστές Ανώτερης ή Ανώτατης Σχολής εσωτερικού ή εξωτερικού;
+    intent: intent_379789
+  - action: utter_intent_379789  
+
+- story: path intent_386245
+  steps:
+  - user: |
+      που μπορώ να βρω την Βεβαίωση αυτασφάλισης;
+    intent: intent_386245
+  - action: utter_intent_386245  
+
+
+- story: path intent_437870
+  steps:
+  - user: |
+      Τι είναι η Βεβαίωση επιδόματος παιδιού για φορολογική χρήση
+    intent: intent_437870
+  - action: utter_intent_437870  
+
+- story: path intent_439605
+  steps:
+  - user: |
+      τι μπορείτε να μου πείτε για την Ανάλυση αμοιβών ανταποκριτή ΕΛΓΑ;
+    intent: intent_439605
+  - action: utter_intent_439605  
+
+- story: path intent_445356
+  steps:
+  - user: |
+      τι μπορείτε να μου πείτε για τις Βεβαιώσεις εισφορών (eΕΦΚΑ);
+    intent: intent_445356
+  - action: utter_intent_445356  
+
+- story: path intent_468536
+  steps:
+  - user: |
+      πως μπορώ να μεταφέρω ζωικά υποπροιόντα;
+    intent: intent_468536
+  - action: utter_intent_468536  
+
+
+- story: path intent_334740
+  steps:
+  - user: |
+      τι μπορείτε να μου πείτε για τις Εγγραφές πρωτοετών φοιτητών;
+    intent: intent_334740
+  - action: utter_intent_334740  
+
+
+- story: path intent_478433
+  steps:
+  - user: |
+      που μπορώ να βρω τα δελτία θέματος;
+    intent: intent_478433
+  - action: utter_intent_478433  
+
+
+- story: path intent_486144
+  steps:
+  - user: |
+      Τι είναι η Επιστροφή ΦΠΑ από χώρες της ΕΕ;
+    intent: intent_486144
+  - action: utter_intent_486144  
+
+
+- story: path intent_519456
+  steps:
+  - user: |
+      Τι είναι η Ψηφιακή υπηρεσία δήλωσης συγκομιδής αμπελουργικών προϊόντων;
+    intent: intent_519456
+  - action: utter_intent_519456  
+
+
+- story: path intent_621184
+  steps:
+  - user: |
+      Τι είναι η Καταχώρηση εκμετάλλευσης βοοειδών;
+    intent: intent_621184
+  - action: utter_intent_621184  

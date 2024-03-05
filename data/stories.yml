@@ -1,0 +1,488 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: sad path 3
+  steps:
+  - intent: Registration_of_first_year_students
+  - action: utter_Registration_of_first_year_students
+
+- story: sad path 4
+  steps:
+  - intent: Registration_of_ELGA
+  - action: utter_Registration_of_ELGA
+
+- story: path intent_439993
+  steps:
+  - intent: intent_439993
+  - action: utter_intent_439993
+
+- story: path intent_104857
+  steps:
+  - intent: intent_104857
+  - action: utter_intent_104857
+
+- story: path intent_106576
+  steps:
+    - intent: intent_106576  
+    - action: utter_intent_106576
+
+
+- story: path intent_135510  
+  steps:
+    - intent: intent_135510  
+    - action: utter_intent_135510
+
+ 
+- story: path intent_140585  
+  steps:
+    - intent: intent_140585
+    - action: utter_intent_140585
+
+
+- story: path intent_147149
+  steps:
+    - intent: intent_147149
+    - action: utter_intent_147149
+
+# - story: path intent_160127
+#   steps:
+#     - action: utter_intent_160127
+#     - intent: intent_160127
+
+- story: path intent_161114
+  steps:
+    - intent: intent_161114  
+    - action: utter_intent_161114
+
+- story: path intent_164460
+  steps:
+    - intent: intent_164460
+    - action: utter_intent_164460
+
+- story: path intent_186970
+  steps:
+    - intent: intent_186970
+    - action: utter_intent_186970
+
+- story: path intent_201794
+  steps:
+    - intent: intent_201794
+    - action: utter_intent_201794
+
+- story: path intent_214376
+  steps:
+    - intent: intent_214376
+    - action: utter_intent_214376
+
+
+# - story: path intent_225434
+#   steps:
+#     - intent: intent_225434
+#     - action: utter_intent_225434
+
+- story: path intent_227120
+  steps:
+    - intent: intent_227120
+    - action: utter_intent_227120
+
+- story: path intent_233198
+  steps:
+    - intent: intent_233198
+    - action: utter_intent_233198
+
+- story: path intent_251271
+  steps:
+    - intent: intent_251271
+    - action: utter_intent_251271
+
+- story: path intent_257811
+  steps:
+    - intent: intent_257811
+    - action: utter_intent_257811
+
+- story: path intent_265834
+  steps:
+    - intent: intent_265834
+    - action: utter_intent_265834
+
+- story: path intent_268173
+  steps:
+    - intent: intent_268173
+    - action: utter_intent_268173
+
+- story: path intent_282237
+  steps:
+    - intent: intent_282237
+    - action: utter_intent_282237
+
+# - story: path intent_282628
+#   steps:
+#     - intent: intent_282628
+#     - action: utter_intent_282628
+
+- story: path intent_283888
+  steps:
+    - intent: intent_283888
+    - action: utter_intent_283888
+
+
+- story: path intent_289214
+  steps:
+    - intent: intent_289214
+    - action: utter_intent_289214
+
+- story: path intent_290952
+  steps:
+    - intent: intent_290952
+    - action: utter_intent_290952
+
+- story: path intent_314585
+  steps:
+    - intent: intent_314585
+    - action: utter_intent_314585
+
+- story: path intent_329627
+  steps:
+    - intent: intent_329627
+    - action: utter_intent_329627
+
+- story: path intent_334740
+  steps:
+    - intent: intent_334740  
+    - action: utter_intent_334740
+
+- story: path intent_344883
+  steps:
+    - intent: intent_344883
+    - action: utter_intent_344883
+
+- story: path intent_374832
+  steps:
+    - intent: intent_374832
+    - action: utter_intent_374832
+
+- story: path intent_374859
+  steps:
+    - intent: intent_374859  
+    - action: utter_intent_374859
+
+- story: path intent_375051
+  steps:
+    - intent: intent_375051
+    - action: utter_intent_375051
+
+- story: path intent_379789
+  steps:
+    - intent: intent_379789
+    - action: utter_intent_379789
+
+- story: path intent_386245
+  steps:
+    - intent: intent_386245  
+    - action: utter_intent_386245
+
+- story: path intent_397411
+  steps:
+    - intent: intent_397411  
+    - action: utter_intent_397411
+
+- story: path intent_401645
+  steps:
+    - intent: intent_401645  
+    - action: utter_intent_401645
+
+- story: path intent_423646
+  steps:
+    - intent: intent_423646  
+    - action: utter_intent_423646
+
+- story: path intent_431641
+  steps:
+    - action: utter_intent_431641
+    - intent: intent_431641
+- story: path intent_437870
+  steps:
+    - action: utter_intent_437870
+    - intent: intent_437870
+- story: path intent_439605
+  steps:
+    - action: utter_intent_439605
+    - intent: intent_439605
+- story: path intent_439993
+  steps:
+    - action: utter_intent_439993
+    - intent: intent_439993
+
+- story: path intent_445356
+  steps:
+    - action: utter_intent_445356
+    - intent: intent_445356
+- story: path intent_466053
+  steps:
+    - action: utter_intent_466053
+    - intent: intent_466053
+- story: path intent_468536
+  steps:
+    - action: utter_intent_468536
+    - intent: intent_468536
+- story: path intent_474461
+  steps:
+    - action: utter_intent_474461
+    - intent: intent_474461
+- story: path intent_478433
+  steps:
+    - action: utter_intent_478433
+    - intent: intent_478433
+- story: path intent_479753
+  steps:
+    - action: utter_intent_479753
+    - intent: intent_479753
+- story: path intent_486144
+  steps:
+    - action: utter_intent_486144
+    - intent: intent_486144
+- story: path intent_499131
+  steps:
+    - action: utter_intent_499131
+    - intent: intent_499131
+- story: path intent_519456
+  steps:
+    - action: utter_intent_519456
+    - intent: intent_519456
+- story: path intent_523764
+  steps:
+    - action: utter_intent_523764
+    - intent: intent_523764
+- story: path intent_528177
+  steps:
+    - action: utter_intent_528177
+    - intent: intent_528177
+- story: path intent_533822
+  steps:
+    - action: utter_intent_533822
+    - intent: intent_533822
+- story: path intent_534637
+  steps:
+    - action: utter_intent_534637
+    - intent: intent_534637
+- story: path intent_542209
+  steps:
+    - action: utter_intent_542209
+    - intent: intent_542209
+- story: path intent_585442
+  steps:
+    - action: utter_intent_585442
+    - intent: intent_585442
+- story: path intent_616541
+  steps:
+    - action: utter_intent_616541
+    - intent: intent_616541
+- story: path intent_621184
+  steps:
+    - action: utter_intent_621184
+    - intent: intent_621184
+- story: path intent_621658
+  steps:
+    - action: utter_intent_621658
+    - intent: intent_621658
+- story: path intent_655115
+  steps:
+    - action: utter_intent_655115
+    - intent: intent_655115
+
+- story: path intent_684860
+  steps:
+    - action: utter_intent_684860
+    - intent: intent_684860
+- story: path intent_729122
+  steps:
+    - action: utter_intent_729122
+    - intent: intent_729122
+- story: path intent_732020
+  steps:
+    - action: utter_intent_732020
+    - intent: intent_732020
+- story: path intent_742507
+  steps:
+    - action: utter_intent_742507
+    - intent: intent_742507
+- story: path intent_760228
+  steps:
+    - action: utter_intent_760228
+    - intent: intent_760228
+- story: path intent_762574
+  steps:
+    - action: utter_intent_762574
+    - intent: intent_762574
+- story: path intent_766759
+  steps:
+    - action: utter_intent_766759
+    - intent: intent_766759
+- story: path intent_768448
+  steps:
+    - action: utter_intent_768448
+    - intent: intent_768448
+- story: path intent_779845
+  steps:
+    - action: utter_intent_779845
+    - intent: intent_779845
+- story: path intent_780312
+  steps:
+    - action: utter_intent_780312
+    - intent: intent_780312
+- story: path intent_800057
+  steps:
+    - action: utter_intent_800057
+    - intent: intent_800057
+- story: path intent_811384
+  steps:
+    - action: utter_intent_811384
+    - intent: intent_811384
+- story: path intent_814359
+  steps:
+    - action: utter_intent_814359
+    - intent: intent_814359
+- story: path intent_819823
+  steps:
+    - action: utter_intent_819823
+    - intent: intent_819823
+- story: path intent_820937
+  steps:
+    - action: utter_intent_820937
+    - intent: intent_820937
+- story: path intent_824059
+  steps:
+    - action: utter_intent_824059
+    - intent: intent_824059
+- story: path intent_854144
+  steps:
+    - action: utter_intent_854144
+    - intent: intent_854144
+- story: path intent_856694
+  steps:
+    - action: utter_intent_856694
+    - intent: intent_856694
+- story: path intent_861414
+  steps:
+    - action: utter_intent_861414
+    - intent: intent_861414
+- story: path intent_866874
+  steps:
+    - action: utter_intent_866874
+    - intent: intent_866874
+- story: path intent_871426
+  steps:
+    - action: utter_intent_871426
+    - intent: intent_871426
+- story: path intent_872303
+  steps:
+    - action: utter_intent_872303
+    - intent: intent_872303
+- story: path intent_873306
+  steps:
+    - action: utter_intent_873306
+    - intent: intent_873306
+- story: path intent_874774
+  steps:
+    - action: utter_intent_874774
+    - intent: intent_874774
+- story: path intent_891251
+  steps:
+    - action: utter_intent_891251
+    - intent: intent_891251
+- story: path intent_904317
+  steps:
+    - action: utter_intent_904317
+    - intent: intent_904317
+- story: path intent_906039
+  steps:
+    - action: utter_intent_906039
+    - intent: intent_906039
+- story: path intent_909884
+  steps:
+    - action: utter_intent_909884
+    - intent: intent_909884
+- story: path intent_912456
+  steps:
+    - action: utter_intent_912456
+    - intent: intent_912456
+- story: path intent_915874
+  steps:
+    - action: utter_intent_915874
+    - intent: intent_915874
+- story: path intent_917374
+  steps:
+    - action: utter_intent_917374
+    - intent: intent_917374
+- story: path intent_922996
+  steps:
+    - action: utter_intent_922996
+    - intent: intent_922996
+- story: path intent_930118
+  steps:
+    - action: utter_intent_930118
+    - intent: intent_930118
+- story: path intent_937099
+  steps:
+    - action: utter_intent_937099
+    - intent: intent_937099
+- story: path intent_961052
+  steps:
+    - action: utter_intent_961052
+    - intent: intent_961052
+- story: path intent_962992
+  steps:
+    - action: utter_intent_962992
+    - intent: intent_962992
+- story: path intent_963466
+  steps:
+    - action: utter_intent_963466
+    - intent: intent_963466
+- story: path intent_977354
+  steps:
+    - action: utter_intent_977354
+    - intent: intent_977354
+- story: path intent_977567
+  steps:
+    - action: utter_intent_977567
+    - intent: intent_977567
+- story: path intent_991597
+  steps:
+    - action: utter_intent_991597
+    - intent: intent_991597
+- story: path intent_991981
+  steps:
+    - action: utter_intent_991981
+    - intent: intent_991981
+- story: path intent_996278
+  steps:
+    - action: utter_intent_996278
+    - intent: intent_996278
